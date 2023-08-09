@@ -1,4 +1,4 @@
-# Reading List App using prop
+# Reading List App using props
 
 practicing props system with this version of books app.
 
