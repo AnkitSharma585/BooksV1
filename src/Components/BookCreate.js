@@ -5,7 +5,8 @@ function BookCreate({ onCreate }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    onCreate(title);
+    const capTitle = title.charAt(0).toUpperCase() + title.slice(1);
+    onCreate(capTitle);
     setTitle('');
   };
 
